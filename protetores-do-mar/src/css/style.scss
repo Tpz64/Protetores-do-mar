@@ -1,0 +1,230 @@
+@use "mixins";
+@use "variables";
+
+*{
+    @include mixins.zero-config();
+}
+
+body {
+    background-color: variables.$back-color;
+    color: variables.$letter-color-1;
+    max-width: 1440px;
+   
+}
+
+//Header.jsx - caso queira alterar algo
+//Modo desktop - ok
+header{
+    background-color: variables.$primary-color;
+
+    img{
+        @include mixins.w-h(auto,55px);
+        margin-left: 1rem;
+    }
+
+    div.logo-nome{
+        display: flex;
+        gap: 2rem;
+    }
+
+    nav{
+        @include mixins.w-h(auto,80px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 1rem;
+
+
+        ul{
+            display: flex;
+            gap: 1rem;
+            list-style: none;
+            align-items: center;
+            padding-top: 15px;
+
+            li.botao{
+                @include mixins.button-2(variables.$logo-color,5px,5px,20px,20px);    
+            }
+
+            li{
+                
+                    text-decoration: none;
+                    align-items: center;
+                    color:variables.$white;
+                    font-size: 20px;
+                    font-weight: 200;
+                    font-family: Arial, Helvetica, sans-serif;
+                
+            }   
+        }
+    }
+}
+
+//Banner.jsx
+div.banner{
+    @include mixins.w-h(auto,80%);
+    position: relative;
+    img{
+        @include mixins.w-h(100%,550px);
+    }
+    div.bem-vindo{
+        @include mixins.w-h(300px,auto);
+        position: absolute;
+        //background: rgba(255, 255, 255, 0.7);
+        margin-top: -30%;
+        margin-left:70%;
+        color:variables.$black;
+        text-align: right;
+
+    }
+}
+
+//Card.jsx
+div.card{
+    @include mixins.w-h(320px,240px);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 25px;
+    @include mixins.m-p(20px,20px);
+    h3{
+        color: variables.$primary-color;
+    }
+    p{
+        font-size: 17px;
+        font-weight: 400;
+        align-items: center;
+        margin-left: 19px;
+        margin-right: 19px;
+    }
+    button{
+        background-color: variables.$primary-color;
+        @include mixins.w-h(140px,50px);
+        border-radius: 25px;
+        text-decoration: none;
+    }
+}
+
+//section.home no App.jsx
+
+section.home{
+    display: flex;
+    @include mixins.m-p(0px,30px);
+    align-items:flex-start;
+    justify-content: center;
+}
+
+//section linear
+section.linear-grad{
+    @include mixins.linearGradient(variables.$back-color,variables.$footer-color);
+    height: 60vh;
+    width: auto;
+    margin-bottom: -2px;
+}
+
+//Footer.jsx
+//modo desktop
+footer{
+    background-color: variables.$footer-color;
+    color: variables.$white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    div{
+        h2{
+            font-size: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            gap:20px;
+            align-items: center;
+            margin: 15px;
+            padding: 0px;
+        }
+    }
+}
+
+//Pagina Contato
+section.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: variables.$letter-color-1;
+    div.titulo{
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            color:white;
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+    }
+    div.botaoMensagem{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    button{
+        background-color: variables.$letter-color-1;
+        width: 200px;
+    }
+}
+
+//Pagina Login
+section.paginaLogin{
+    @include mixins.linearGradient(variables.$back-color,variables.$footer-color);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.login{
+    background-color: variables.$letter-color-2;
+    @include mixins.w-h(440px,400px);
+    border-radius: 35px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: variables.$primary-color;
+    font-weight: 600;
+    button{
+        background-color: variables.$primary-color;
+        margin-left: 60px;
+    }   
+}
+
+//TextoImagem.jsx
+div.divTI{
+    display: flex;
+    flex-direction: column;
+    @include mixins.m-p(30px,0px);
+    font-family: Arial, Helvetica, sans-serif;
+    h1{
+        font-weight: 500;
+        color: variables.$letter-color-1;
+    }
+    div{
+        display: flex;
+        margin-top: 5px;
+        p{
+            @include mixins.w-h(50%,300px);
+            color:white;
+            font-size: 20px;
+        }
+    }
+}
+
+div.titulo{
+    @include mixins.m-p(30px,0px)
+}

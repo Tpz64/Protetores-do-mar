@@ -1,0 +1,28 @@
+@mixin zero-config{
+    padding: 0;
+    margin: 0;
+}
+
+@mixin w-h($w,$h){
+    width: $w;
+    height: $h;
+}
+
+@mixin m-p($m,$p){
+    margin: $m;
+    padding: $p;
+}
+
+
+@mixin button-2($color,$pt,$pb,$pl,$pr){
+    background:$color;
+    border-radius: 25px;
+    padding-top:$pt;
+    padding-bottom: $pb;
+    padding-left: $pl;
+    padding-right: $pr;
+}
+
+@mixin linearGradient($color1,$color2){
+    background:linear-gradient($color1,$color2)
+}
