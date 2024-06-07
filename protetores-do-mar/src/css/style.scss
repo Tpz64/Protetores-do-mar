@@ -75,7 +75,6 @@ div.banner{
         margin-left:70%;
         color:variables.$black;
         text-align: right;
-
     }
 }
 
@@ -118,9 +117,12 @@ section.home{
 //section linear
 section.linear-grad{
     @include mixins.linearGradient(variables.$back-color,variables.$footer-color);
-    height: 60vh;
-    width: auto;
+    @include mixins.w-h(auto,65vh);
     margin-bottom: -2px;
+    @include mixins.center();
+    h1{
+        color:variables.$black;
+    }
 }
 
 //Footer.jsx
@@ -180,6 +182,42 @@ section.contato{
     }
 }
 
+//Pagina Cadastro
+section.cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: variables.$letter-color-1;
+    div.titulo{
+        margin: 20px;
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 21px;
+            color:white;
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+    }
+    div.botaoMensagem{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    button{
+        background-color: variables.$letter-color-1;
+        width: 200px;
+        font-size: 20px;
+    }
+    label.text-muted{
+        font-size: 20px;
+        font-weight: 200;
+    }
+}
+
 //Pagina Login
 section.paginaLogin{
     @include mixins.linearGradient(variables.$back-color,variables.$footer-color);
@@ -226,5 +264,37 @@ div.divTI{
 }
 
 div.titulo{
-    @include mixins.m-p(30px,0px)
+    @include mixins.m-p(30px,0px);
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 21px;
+        color:white;
+    }
+}
+
+//Componente ModeloInfosMar
+div.modeloInfosMar{
+    background-color: variables.$white;
+    border-radius: 25px;
+    @include mixins.w-h(200px,200px);
+    flex-direction: column;
+    @include mixins.center();
+    color: variables.$primary-color;
+    h2{
+        text-align: center;
+    }
+}
+
+//MarHoje.jsx
+div.dados{
+    @include mixins.center();
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+div.local-data{
+    @include mixins.m-p(45px,0);
+    color: variables.$letter-color-2;
 }

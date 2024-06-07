@@ -111,9 +111,15 @@ section.home {
 
 section.linear-grad {
   background: linear-gradient(#68D2E8, #FEEFAD);
-  height: 60vh;
   width: auto;
+  height: 65vh;
   margin-bottom: -2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.linear-grad h1 {
+  color: #000;
 }
 
 footer {
@@ -166,6 +172,41 @@ section.contato button {
   width: 200px;
 }
 
+section.cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  color: #FDDE55;
+}
+section.cadastro div.titulo {
+  margin: 20px;
+}
+section.cadastro div.titulo p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  color: white;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+section.cadastro div.botaoMensagem {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+section.cadastro button {
+  background-color: #FDDE55;
+  width: 200px;
+  font-size: 20px;
+}
+section.cadastro label.text-muted {
+  font-size: 20px;
+  font-weight: 200;
+}
+
 section.paginaLogin {
   background: linear-gradient(#68D2E8, #FEEFAD);
   height: 100vh;
@@ -216,4 +257,40 @@ div.divTI div p {
 div.titulo {
   margin: 30px;
   padding: 0px;
+}
+div.titulo p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  color: white;
+}
+
+div.modeloInfosMar {
+  background-color: #fff;
+  border-radius: 25px;
+  width: 200px;
+  height: 200px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #03AED2;
+}
+div.modeloInfosMar h2 {
+  text-align: center;
+}
+
+div.dados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+div.local-data {
+  margin: 45px;
+  padding: 0;
+  color: #FFEB92;
 }/*# sourceMappingURL=style.css.map */
