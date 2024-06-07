@@ -1,3 +1,7 @@
+.no-desktop {
+  display: none;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -248,10 +252,25 @@ div.divTI div {
   margin-top: 5px;
 }
 div.divTI div p {
-  width: 50%;
-  height: 300px;
+  width: 80%;
+  height: 200px;
   color: white;
   font-size: 20px;
+}
+
+div.divTI-1 div.imagem {
+  width: auto;
+  height: 170px;
+}
+
+div.divTI-2 div.imagem {
+  width: auto;
+  height: 170px;
+}
+div.divTI-2 div.texto {
+  display: flex;
+  justify-content: end;
+  text-align: right;
 }
 
 div.titulo {
@@ -293,4 +312,74 @@ div.local-data {
   margin: 45px;
   padding: 0;
   color: #FFEB92;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .no-tablet {
+    display: none;
+  }
+  .no-desktop {
+    display: inline;
+  }
+  nav.cor-header {
+    background-color: #03AED2;
+    width: 100%;
+  }
+  button.botao-menu-hamburguer {
+    border: none;
+  }
+  div.offcanvas-body, div.offcanvas-header {
+    background: linear-gradient(0.25turn, #68D2E8, #FEEFAD);
+  }
+  div.banner div.bem-vindo {
+    width: 300px;
+    height: auto;
+    margin-top: -50%;
+    margin-left: 50%;
+  }
+  div.card {
+    width: 250px;
+    height: 360px;
+  }
+  section.home {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 767px) {
+  .no-tablet {
+    display: none;
+  }
+  .no-desktop {
+    display: inline;
+  }
+  nav.cor-header {
+    background-color: #03AED2;
+    width: 100%;
+  }
+  div.logo-nome {
+    width: 20px;
+    text-align: center;
+  }
+  button.botao-menu-hamburguer {
+    border: none;
+  }
+  div.offcanvas-body, div.offcanvas-header {
+    background: linear-gradient(0.25turn, #68D2E8, #FEEFAD);
+  }
+  div.banner div.bem-vindo {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin-top: -99%;
+    margin-left: 15%;
+  }
+  div.card {
+    width: 250px;
+    height: 310px;
+  }
+  section.home {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=style.css.map */

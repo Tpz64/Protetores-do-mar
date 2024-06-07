@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 function Header(){
     return(
         <>
-        <header>
+        <header className='no-tablet'>
             <nav>
                 <div className="logo-nome">
                     <img src="logo.png" alt="Logo Protetores do Mar" />

@@ -1,21 +1,21 @@
-function TextoImagem(texto1,imagem1,imagem2,texto2){
+function TextoImagem({texto1,imagem1,imagem2,texto2}){
     return(
         <>
         <div className="divTI">
             <div className='divTI-1'>
                 <div className="texto">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad velit numquam unde quisquam quia, magni quidem cupiditate enim non laboriosam qui sunt incidunt voluptatibus ipsam pariatur odit placeat voluptate asperiores!</p>
+                    <p>{texto1}</p>
                 </div>
                 <div className="imagem">
-                    <img src="" alt="imagem"/>
+                    <img src={imagem1} alt="imagem"/>
                 </div>
             </div>
             <div className='divTI-2'>
                 <div className="imagem">
-                    <img src="" alt="imagem"/>
+                    <img src={imagem2} alt="imagem"/>
                 </div>
                 <div className="texto">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad velit numquam unde quisquam quia, magni quidem cupiditate enim non laboriosam qui sunt incidunt voluptatibus ipsam pariatur odit placeat voluptate asperiores!</p>
+                    <p>{texto2}</p>
                 </div>
             </div>
         </div>

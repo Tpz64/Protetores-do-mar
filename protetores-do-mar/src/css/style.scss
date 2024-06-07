@@ -1,6 +1,11 @@
 @use "mixins";
 @use "variables";
 
+//Modo desktop
+.no-desktop{
+    display: none;
+}
+
 *{
     @include mixins.zero-config();
 }
@@ -256,12 +261,31 @@ div.divTI{
         display: flex;
         margin-top: 5px;
         p{
-            @include mixins.w-h(50%,300px);
+            @include mixins.w-h(80%,200px);
             color:white;
             font-size: 20px;
         }
     }
 }
+//entender pq o mixins nao ta indo
+div.divTI-1{
+    div.imagem{
+        width: auto;
+        height: 170px;
+    }
+}
+
+div.divTI-2{
+    div.imagem{
+        @include mixins.w-h(auto,170px);
+    }
+    div.texto{
+        display: flex;
+        justify-content: end;
+        text-align: right;
+    }
+}
+
 
 div.titulo{
     @include mixins.m-p(30px,0px);
@@ -297,4 +321,92 @@ div.dados{
 div.local-data{
     @include mixins.m-p(45px,0);
     color: variables.$letter-color-2;
+}
+
+//MODO TABLET
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .no-tablet{
+        display: none;
+    }
+    .no-desktop{
+        display: inline;
+    }
+    //HEADER
+    nav.cor-header{
+        background-color: variables.$primary-color;
+        width: 100%;
+    }
+    button.botao-menu-hamburguer{
+        border: none;
+    }
+    div.offcanvas-body, div.offcanvas-header{
+        background: linear-gradient(0.25turn, #68D2E8, #FEEFAD);
+    }
+
+    //HOME
+    //Banner
+    div.banner{
+        div.bem-vindo{
+            @include mixins.w-h(300px,auto);
+            margin-top: -50%;
+            margin-left:50%;
+        }
+    }
+
+    //Card - componente
+    div.card{
+        @include mixins.w-h(250px,360px);
+    }
+    section.home{
+        height: 100vh;
+
+    }
+}
+
+//MOBILE
+
+@media screen and (max-width: 767px){
+    .no-tablet{
+        display: none;
+    }
+    .no-desktop{
+        display: inline;
+    }
+
+    //HEADER
+    nav.cor-header{
+        background-color: variables.$primary-color;
+        width: 100%;
+    }
+    div.logo-nome{
+        width:20px;
+        text-align: center;
+    }
+    button.botao-menu-hamburguer{
+        border: none;
+    }
+    div.offcanvas-body, div.offcanvas-header{
+        background: linear-gradient(0.25turn, #68D2E8, #FEEFAD);
+    }
+    //HOME
+    //Banner
+    div.banner{
+        div.bem-vindo{
+            @include mixins.w-h(auto,auto);
+            padding: 5px;
+            margin-top: -99%;
+            margin-left:15%;
+        }
+    }
+
+    //Card - componente
+    div.card{
+        @include mixins.w-h(250px,310px);
+    }
+    section.home{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
 }

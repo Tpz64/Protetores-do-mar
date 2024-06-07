@@ -5,6 +5,7 @@ import {Outlet} from "react-router-dom"
 import Header from "./Componentes/Header/Header";
 import Footer from "./Componentes/Footer/Footer";
 import TresInfos from "./Componentes/TresInfos/TresInfos";
+import HeaderMobile from "./Componentes/Header/HeaderMobile";
 
 /*const imagensMar =[
     './imgs/slideShow/foto-mar.jpeg',
@@ -15,6 +16,7 @@ function App(){
     return(
         <>
         <Header/>
+        <HeaderMobile/>
         <Outlet/>
         <Footer/>
         </>
