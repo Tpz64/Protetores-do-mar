@@ -5,13 +5,14 @@ function HeaderMobile(){
         <>
         <header className='no-desktop'>
                 <nav className="navbar cor-header">
-                    <div class="container-fluid">
+                    <div className="container-fluid">
+                        
                         <div className="logo-nome">
                             <img src="logo.png" alt="Logo Protetores do Mar"/>
                             <h1>Protetores do Mar</h1>
                         </div>
                         <button className="navbar-toggler botao-menu-hamburguer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                        <img src="onda-off-white.png" alt="menu-hamburguer" />
+                        <img className="onda-menu" src="onda-off-white.png" alt="menu-hamburguer" />
                         </button>
 
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -23,13 +24,13 @@ function HeaderMobile(){
                             <div class="offcanvas-body">
                                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 
-                                    <li className="nav-item"><Link to="/">Home</Link></li>
-                                    <li className="nav-item"><Link to="sobre">Sobre nós</Link></li>
-                                    <li className="nav-item"><Link to="parceiros">Parceiros</Link></li>
-                                    <li className="nav-item"><Link to="mar">Como está o mar hoje?</Link></li>
-                                    <li className="nav-item"><Link to="contato">Deixe sua mensagem</Link></li>
-                                    <li className="botao nav-item"><Link to="cadastro">Cadastre-se</Link></li>
-                                    <li className="botao nav-item"><Link to="login">Login</Link></li>
+                                    <li className="nav-item"><Link className='link' to="/">Home</Link></li>
+                                    <li className="nav-item"><Link className='link' to="sobre">Sobre nós</Link></li>
+                                    <li className="nav-item"><Link className='link' to="parceiros">Parceiros</Link></li>
+                                    <li className="nav-item"><Link className='link' to="mar">Como está o mar hoje?</Link></li>
+                                    <li className="nav-item"><Link className='link' to="contato">Deixe sua mensagem</Link></li>
+                                    <li className="botao nav-item"><Link className='link' to="cadastro">Cadastre-se</Link></li>
+                                    <li className="botao nav-item"><Link className='link' to="login">Login</Link></li>
                                 </ul>
                             </div>
 

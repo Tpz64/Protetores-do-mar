@@ -5,7 +5,7 @@ function Card({titulo, descricao, textoBotao,caminho}){
         <div className="card">
             <h3 className="card-title">{titulo}</h3>
             <p className="card-text">{descricao}</p>
-            <button type="button" className="btn btn-info"><Link to={caminho}>{textoBotao}</Link></button>
+            <button type="button" className="btn btn-info"><Link className='link2' to={caminho}>{textoBotao}</Link></button>
         </div>
     );
 };

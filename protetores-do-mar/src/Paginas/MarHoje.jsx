@@ -12,7 +12,6 @@ function MarHoje(){
             <ModeloInfoMarComp/>
             <ModeloInfoMarComp/>
         </section>
-        <section className='linear-grad'></section>
         </>
     )
 }

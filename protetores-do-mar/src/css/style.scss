@@ -52,17 +52,33 @@ header{
             }
 
             li{
-                
                     text-decoration: none;
                     align-items: center;
                     color:variables.$white;
                     font-size: 20px;
                     font-weight: 200;
                     font-family: Arial, Helvetica, sans-serif;
-                
             }   
         }
     }
+}
+//Mudar cor dos link Rotas
+.link{
+    text-decoration: none;
+    align-items: center;
+    color:variables.$white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link2{
+    text-decoration: none;
+    align-items: center;
+    color:variables.$white;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 //Banner.jsx
@@ -225,7 +241,6 @@ section.cadastro{
 
 //Pagina Login
 section.paginaLogin{
-    @include mixins.linearGradient(variables.$back-color,variables.$footer-color);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -267,8 +282,9 @@ div.divTI{
         }
     }
 }
-//entender pq o mixins nao ta indo
+
 div.divTI-1{
+    padding-bottom: 20px;
     div.imagem{
         width: auto;
         height: 170px;
@@ -285,7 +301,6 @@ div.divTI-2{
         text-align: right;
     }
 }
-
 
 div.titulo{
     @include mixins.m-p(30px,0px);
@@ -324,7 +339,7 @@ div.local-data{
 }
 
 //MODO TABLET
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1065px){
     .no-tablet{
         display: none;
     }
@@ -348,8 +363,8 @@ div.local-data{
     div.banner{
         div.bem-vindo{
             @include mixins.w-h(300px,auto);
-            margin-top: -50%;
-            margin-left:50%;
+            margin-top: -40%;
+            margin-left:60%;
         }
     }
 
@@ -359,7 +374,39 @@ div.local-data{
     }
     section.home{
         height: 100vh;
+    }
 
+    //Componente TextoImagem
+    //TextoImagem.jsx
+ 
+    div.divTI-1{
+        @include mixins.w-h(auto,270px);
+        div.imagem{
+            width: auto;
+            height: 170px;
+        }
+        div.texto{
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+
+    div.divTI-2{
+        @include mixins.w-h(auto,260px);
+        div.imagem{
+            @include mixins.w-h(340px,200px);
+        }
+        div.texto{
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+
+    //Pagina Contato e Cadastro 
+    section.contato, section.cadastro{
+        margin: 30px;
     }
 }
 
@@ -389,12 +436,29 @@ div.local-data{
         background: linear-gradient(0.25turn, #68D2E8, #FEEFAD);
     }
     //HOME
+
+    //MenuMobile
+
+    div.container-fluid{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    div.logo-nome{
+        display: flex;
+        align-items: center;
+
+    }
+    img.onda-menu{
+        @include mixins.w-h(40px,30px)
+    }
+
     //Banner
     div.banner{
         div.bem-vindo{
             @include mixins.w-h(auto,auto);
             padding: 5px;
-            margin-top: -99%;
+            margin-top: -350px;
             margin-left:15%;
         }
     }
@@ -409,4 +473,62 @@ div.local-data{
         flex-wrap: wrap;
 
     }
+
+    //TextoImagem.jsx
+
+    div.divTI{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.divTI-1{
+        @include mixins.w-h(auto,auto);
+        @include mixins.center();
+        flex-wrap: wrap;
+        div.imagem{
+            width: auto;
+            height: 200px;
+        }
+        div.texto{
+            margin-bottom: 20px;
+            @include mixins.center();
+            p{
+                @include mixins.w-h(300px,auto);
+                font-size: 15px;
+                text-align:start;
+            }
+        }
+    }
+
+    div.divTI-2{
+        @include mixins.w-h(auto,550px);
+        @include mixins.center();
+        flex-wrap: wrap-reverse;
+        div.imagem{
+            @include mixins.w-h(auto,200px);
+        }
+        div.texto{
+            margin-bottom: 20px;
+            @include mixins.center();
+            p{
+                font-size: 15px;
+                
+            }
+        }
+    }
+
+    //Pagina Contato e Cadastro 
+    section.contato, section.cadastro, section.paginaLogin{
+        margin: 30px;
+    }
+
+    section.contato div.titulo p{
+        padding: 0;
+    }
+
+    section.cadastro div.titulo p{
+        padding: 0;
+    }
+
+
 }

@@ -82,7 +82,7 @@ function Cadastro(){
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="inputPassword6" class="col-form-label">Reescreva sua senha</label>
-                                <label class="text-muted"> As duas devem estar escritas iguais</label>
+                                <label class="text-muted"> As senhas duas devem estar escritas iguais</label>
                                 <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline"/>
                             </div>
                         </div>
@@ -92,13 +92,8 @@ function Cadastro(){
                     <div className="botaoMensagem">
                         <button type="submit" class="btn btn-warning">Cadastrar</button>
                     </div>
-            </div>
-            
+            </div>            
         </section>
-        <section className="linear-grad">
-            
-        </section>
-
         </>
     )
 }

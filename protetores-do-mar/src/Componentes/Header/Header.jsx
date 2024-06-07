@@ -10,11 +10,11 @@ function Header(){
                     <h1>Protetores do Mar</h1>
                 </div>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="sobre">Sobre nós</Link></li>
-                    <li><Link to="mar">Como está o mar hoje?</Link></li>
-                    <li className="botao"><Link to="cadastro">Cadastre-se</Link></li>
-                    <li className="botao"><Link to="login">Login</Link></li>
+                    <li><Link className='link' to="/">Home</Link></li>
+                    <li><Link className='link'  to="sobre">Sobre nós</Link></li>
+                    <li><Link className='link' to="mar">Como está o mar hoje?</Link></li>
+                    <li className="botao"><Link className='link'  to="cadastro">Cadastre-se</Link></li>
+                    <li className="botao"><Link className='link' to="login">Login</Link></li>
                 </ul>
             </nav>
 

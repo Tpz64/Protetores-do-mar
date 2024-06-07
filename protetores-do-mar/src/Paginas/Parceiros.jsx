@@ -13,9 +13,6 @@ function Parceiros(){
 A Cátedra realiza um trabalho estruturante, continuado e crescente de promoção e disseminação do conhecimento e valorização do oceano, além de promover e contribuir com a Agenda Global do Oceano e a Agenda 2030, com destaque para o Objetivo de desenvolvimento sustentável 14, Vida na água.
 "/>
         </section>
-        <section className="linear-grad">
-
-        </section>
       </>
   )
 }

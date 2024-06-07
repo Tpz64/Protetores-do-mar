@@ -41,9 +41,6 @@ function Contato(){
             </div>
 
         </section>
-        <section className="linear-grad">
-            
-        </section>
         </>
     )
 }

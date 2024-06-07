@@ -57,6 +57,24 @@ header nav ul li {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.link {
+  text-decoration: none;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link2 {
+  text-decoration: none;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 div.banner {
   width: auto;
   height: 80%;
@@ -212,7 +230,6 @@ section.cadastro label.text-muted {
 }
 
 section.paginaLogin {
-  background: linear-gradient(#68D2E8, #FEEFAD);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -258,6 +275,9 @@ div.divTI div p {
   font-size: 20px;
 }
 
+div.divTI-1 {
+  padding-bottom: 20px;
+}
 div.divTI-1 div.imagem {
   width: auto;
   height: 170px;
@@ -314,7 +334,7 @@ div.local-data {
   color: #FFEB92;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1065px) {
   .no-tablet {
     display: none;
   }
@@ -334,8 +354,8 @@ div.local-data {
   div.banner div.bem-vindo {
     width: 300px;
     height: auto;
-    margin-top: -50%;
-    margin-left: 50%;
+    margin-top: -40%;
+    margin-left: 60%;
   }
   div.card {
     width: 250px;
@@ -343,6 +363,31 @@ div.local-data {
   }
   section.home {
     height: 100vh;
+  }
+  div.divTI-1 {
+    width: auto;
+    height: 270px;
+  }
+  div.divTI-1 div.imagem {
+    width: auto;
+    height: 170px;
+  }
+  div.divTI-1 div.texto p {
+    font-size: 15px;
+  }
+  div.divTI-2 {
+    width: auto;
+    height: 260px;
+  }
+  div.divTI-2 div.imagem {
+    width: 340px;
+    height: 200px;
+  }
+  div.divTI-2 div.texto p {
+    font-size: 15px;
+  }
+  section.contato, section.cadastro {
+    margin: 30px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -366,11 +411,23 @@ div.local-data {
   div.offcanvas-body, div.offcanvas-header {
     background: linear-gradient(0.25turn, #68D2E8, #FEEFAD);
   }
+  div.container-fluid {
+    display: flex;
+    justify-content: space-around;
+  }
+  div.logo-nome {
+    display: flex;
+    align-items: center;
+  }
+  img.onda-menu {
+    width: 40px;
+    height: 30px;
+  }
   div.banner div.bem-vindo {
     width: auto;
     height: auto;
     padding: 5px;
-    margin-top: -99%;
+    margin-top: -350px;
     margin-left: 15%;
   }
   div.card {
@@ -381,5 +438,64 @@ div.local-data {
     height: auto;
     display: flex;
     flex-wrap: wrap;
+  }
+  div.divTI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div.divTI-1 {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  div.divTI-1 div.imagem {
+    width: auto;
+    height: 200px;
+  }
+  div.divTI-1 div.texto {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div.divTI-1 div.texto p {
+    width: 300px;
+    height: auto;
+    font-size: 15px;
+    text-align: start;
+  }
+  div.divTI-2 {
+    width: auto;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+  div.divTI-2 div.imagem {
+    width: auto;
+    height: 200px;
+  }
+  div.divTI-2 div.texto {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div.divTI-2 div.texto p {
+    font-size: 15px;
+  }
+  section.contato, section.cadastro, section.paginaLogin {
+    margin: 30px;
+  }
+  section.contato div.titulo p {
+    padding: 0;
+  }
+  section.cadastro div.titulo p {
+    padding: 0;
   }
 }/*# sourceMappingURL=style.css.map */
