@@ -27,7 +27,7 @@ const router = createBrowserRouter([
       {path:'login',element:<LoginPdo/>},
       {path:'parceiros',element:<Parceiros/>},
       {path:'contato', element:<Contato/>},
-      {path:'*',element:<PageNotFound/>}
+      {path:'*',element:<PageNotFound/>},
     ]
 
 }])

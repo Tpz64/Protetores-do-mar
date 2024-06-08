@@ -9,7 +9,7 @@ function MarHoje(){
         <section className='marHoje'>
             <div className="titulo">
                 <h1>Como está o mar hoje?</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, dolorum laboriosam labore necessitatibus similique incidunt impedit veniam laborum suscipit cum voluptate molestias itaque qui consectetur amet, quibusdam quaerat autem sunt.</p>
+                <p>Aqui você encontra o monitoramento dia a dia da cidade de Belém, no Pará. No Futuro, iremos implementar outras cidades, dando a opção de você escolher de onde quer saber as informações. </p>
             </div>
 
             {data.belem.map((belem,index)=>(
@@ -21,8 +21,6 @@ function MarHoje(){
             <div>
                 
             </div>
-            <ModeloInfoMarComp local="" data="" temp="" ph="" sal="" vento=""change="" cor=""/>
-            <ModeloInfoMarComp/>
         </section>
         </>
     )
