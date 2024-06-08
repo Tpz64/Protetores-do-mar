@@ -15,14 +15,14 @@ function HeaderMobile(){
                         <img className="onda-menu" src="onda-off-white.png" alt="menu-hamburguer" />
                         </button>
 
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                        
-                            <div class="offcanvas-header">
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <div className="offcanvas-header">
+                                <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
 
-                            <div class="offcanvas-body">
-                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <div className="offcanvas-body">
+                                <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
 
                                     <li className="nav-item"><Link className='link' to="/">Home</Link></li>
                                     <li className="nav-item"><Link className='link' to="sobre">Sobre nós</Link></li>

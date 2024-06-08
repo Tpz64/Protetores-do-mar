@@ -1,5 +1,4 @@
 import Card from "../Card/Card"
-import {Outlet} from "react-router-dom"
 
 function TresInfos(){
     return(

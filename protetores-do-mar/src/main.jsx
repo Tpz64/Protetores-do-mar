@@ -11,6 +11,7 @@ import Parceiros from './Paginas/Parceiros.jsx'
 import Contato from './Paginas/Contato.jsx'
 import PageNotFound from './Paginas/PageNotFound.jsx'
 import { createBrowserRouter, RouterProvider} from 'react-router-dom'
+import PaginaLogada from './Paginas/PaginaLogada.jsx'
 
 //criando as rotas
 

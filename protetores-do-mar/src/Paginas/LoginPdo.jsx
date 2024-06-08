@@ -10,19 +10,19 @@ function Login(){
             <div className='login'>
                 <h1>Login</h1>
                 <form>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                    <div className="mb-3">
+                        <label for="exampleInputEmail1" className="form-label">E-mail</label>
+                        <input type="email" className="form-control" aria-describedby="emailHelp"/>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Senha</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1"/>
+                    <div className="mb-3">
+                        <label for="exampleInputPassword1" className="form-label">Senha</label>
+                        <input type="password" className="form-control"/>
                     </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-                        <label class="form-check-label" for="exampleCheck1">Permanecer conectado</label>
+                    <div className="mb-3 form-check">
+                        <input type="checkbox" className="form-check-input"/>
+                        <label className="form-check-label" for="exampleCheck1">Permanecer conectado</label>
                     </div>
-                    <button type="submit" class="btn btn-info">Entrar</button>
+                    <button type="submit" className="btn btn-info">Entrar</button>
                 </form>
             </div>
         </section>

@@ -1,0 +1,546 @@
+{
+    "belem": [
+        {
+            "date": "2024-05-01",
+            "ph": 8.13,
+            "salinity": 34.79,
+            "temperature": 19.59,
+            "wind_speed": 6.14,
+            "climate_change": 0.23,
+            "water_color": 0.83
+        },
+        {
+            "date": "2024-05-02",
+            "ph": 8.23,
+            "salinity": 36.32,
+            "temperature": 19.1,
+            "wind_speed": 10.68,
+            "climate_change": 0.0,
+            "water_color": 4.35
+        },
+        {
+            "date": "2024-05-03",
+            "ph": 8.16,
+            "salinity": 35.37,
+            "temperature": 24.56,
+            "wind_speed": 3.71,
+            "climate_change": 0.46,
+            "water_color": 0.9
+        },
+        {
+            "date": "2024-05-04",
+            "ph": 8.13,
+            "salinity": 35.71,
+            "temperature": 19.38,
+            "wind_speed": 11.31,
+            "climate_change": 0.14,
+            "water_color": 3.12
+        },
+        {
+            "date": "2024-05-05",
+            "ph": 8.05,
+            "salinity": 34.06,
+            "temperature": 19.97,
+            "wind_speed": 5.76,
+            "climate_change": -0.08,
+            "water_color": 0.71
+        },
+        {
+            "date": "2024-05-06",
+            "ph": 8.19,
+            "salinity": 35.85,
+            "temperature": 21.69,
+            "wind_speed": 4.38,
+            "climate_change": 0.11,
+            "water_color": 4.26
+        },
+        {
+            "date": "2024-05-07",
+            "ph": 8.06,
+            "salinity": 35.84,
+            "temperature": 26.21,
+            "wind_speed": 9.62,
+            "climate_change": -0.48,
+            "water_color": 4.06
+        },
+        {
+            "date": "2024-05-08",
+            "ph": 8.34,
+            "salinity": 35.85,
+            "temperature": 18.97,
+            "wind_speed": 2.26,
+            "climate_change": -0.2,
+            "water_color": 2.89
+        },
+        {
+            "date": "2024-05-09",
+            "ph": 8.38,
+            "salinity": 36.83,
+            "temperature": 26.38,
+            "wind_speed": 12.78,
+            "climate_change": 0.16,
+            "water_color": 2.1
+        },
+        {
+            "date": "2024-05-10",
+            "ph": 8.03,
+            "salinity": 36.05,
+            "temperature": 18.96,
+            "wind_speed": 2.06,
+            "climate_change": -0.21,
+            "water_color": 0.44
+        },
+        {
+            "date": "2024-05-11",
+            "ph": 8.28,
+            "salinity": 35.08,
+            "temperature": 27.76,
+            "wind_speed": 10.81,
+            "climate_change": 0.12,
+            "water_color": 3.52
+        },
+        {
+            "date": "2024-05-12",
+            "ph": 8.12,
+            "salinity": 35.31,
+            "temperature": 22.69,
+            "wind_speed": 5.51,
+            "climate_change": -0.07,
+            "water_color": 2.32
+        },
+        {
+            "date": "2024-05-13",
+            "ph": 8.14,
+            "salinity": 36.09,
+            "temperature": 27.77,
+            "wind_speed": 11.56,
+            "climate_change": -0.36,
+            "water_color": 3.64
+        },
+        {
+            "date": "2024-05-14",
+            "ph": 8.36,
+            "salinity": 34.18,
+            "temperature": 24.05,
+            "wind_speed": 14.51,
+            "climate_change": -0.2,
+            "water_color": 4.35
+        },
+        {
+            "date": "2024-05-15",
+            "ph": 7.84,
+            "salinity": 36.0,
+            "temperature": 25.39,
+            "wind_speed": 5.23,
+            "climate_change": 0.07,
+            "water_color": 4.88
+        },
+        {
+            "date": "2024-05-16",
+            "ph": 7.85,
+            "salinity": 36.01,
+            "temperature": 18.39,
+            "wind_speed": 9.49,
+            "climate_change": 0.09,
+            "water_color": 4.29
+        },
+        {
+            "date": "2024-05-17",
+            "ph": 7.81,
+            "salinity": 34.63,
+            "temperature": 20.83,
+            "wind_speed": 9.7,
+            "climate_change": 0.07,
+            "water_color": 0.16
+        },
+        {
+            "date": "2024-05-18",
+            "ph": 8.3,
+            "salinity": 34.39,
+            "temperature": 19.2,
+            "wind_speed": 9.44,
+            "climate_change": 0.15,
+            "water_color": 1.86
+        },
+        {
+            "date": "2024-05-19",
+            "ph": 8.27,
+            "salinity": 34.95,
+            "temperature": 20.96,
+            "wind_speed": 4.9,
+            "climate_change": 0.15,
+            "water_color": 3.68
+        },
+        {
+            "date": "2024-05-20",
+            "ph": 8.32,
+            "salinity": 35.09,
+            "temperature": 19.19,
+            "wind_speed": 14.39,
+            "climate_change": -0.07,
+            "water_color": 0.94
+        },
+        {
+            "date": "2024-05-21",
+            "ph": 8.39,
+            "salinity": 35.71,
+            "temperature": 21.18,
+            "wind_speed": 7.81,
+            "climate_change": 0.4,
+            "water_color": 3.82
+        },
+        {
+            "date": "2024-05-22",
+            "ph": 8.28,
+            "salinity": 35.32,
+            "temperature": 22.14,
+            "wind_speed": 13.0,
+            "climate_change": -0.13,
+            "water_color": 1.86
+        },
+        {
+            "date": "2024-05-23",
+            "ph": 8.08,
+            "salinity": 36.97,
+            "temperature": 18.64,
+            "wind_speed": 11.09,
+            "climate_change": -0.06,
+            "water_color": 1.83
+        },
+        {
+            "date": "2024-05-24",
+            "ph": 8.27,
+            "salinity": 34.31,
+            "temperature": 24.92,
+            "wind_speed": 5.87,
+            "climate_change": 0.39,
+            "water_color": 1.99
+        },
+        {
+            "date": "2024-05-25",
+            "ph": 7.87,
+            "salinity": 34.63,
+            "temperature": 23.67,
+            "wind_speed": 12.58,
+            "climate_change": 0.31,
+            "water_color": 2.59
+        },
+        {
+            "date": "2024-05-26",
+            "ph": 8.18,
+            "salinity": 34.48,
+            "temperature": 20.65,
+            "wind_speed": 7.15,
+            "climate_change": 0.2,
+            "water_color": 1.42
+        },
+        {
+            "date": "2024-05-27",
+            "ph": 7.89,
+            "salinity": 35.96,
+            "temperature": 23.23,
+            "wind_speed": 13.45,
+            "climate_change": -0.4,
+            "water_color": 4.54
+        },
+        {
+            "date": "2024-05-28",
+            "ph": 8.37,
+            "salinity": 34.76,
+            "temperature": 18.94,
+            "wind_speed": 9.56,
+            "climate_change": 0.42,
+            "water_color": 2.74
+        },
+        {
+            "date": "2024-05-29",
+            "ph": 8.11,
+            "salinity": 35.4,
+            "temperature": 23.76,
+            "wind_speed": 13.46,
+            "climate_change": 0.21,
+            "water_color": 4.14
+        },
+        {
+            "date": "2024-05-30",
+            "ph": 8.05,
+            "salinity": 34.73,
+            "temperature": 27.29,
+            "wind_speed": 11.0,
+            "climate_change": 0.5,
+            "water_color": 1.03
+        }
+    ],
+    "rioGrande": [
+        {
+            "date": "2024-05-01",
+            "ph": 7.9,
+            "salinity": 36.97,
+            "temperature": 26.64,
+            "wind_speed": 14.71,
+            "climate_change": 0.41,
+            "water_color": 0.99
+        },
+        {
+            "date": "2024-05-02",
+            "ph": 8.17,
+            "salinity": 34.65,
+            "temperature": 19.18,
+            "wind_speed": 13.39,
+            "climate_change": 0.27,
+            "water_color": 3.96
+        },
+        {
+            "date": "2024-05-03",
+            "ph": 7.96,
+            "salinity": 36.52,
+            "temperature": 20.74,
+            "wind_speed": 2.98,
+            "climate_change": 0.22,
+            "water_color": 4.37
+        },
+        {
+            "date": "2024-05-04",
+            "ph": 7.58,
+            "salinity": 34.19,
+            "temperature": 25.99,
+            "wind_speed": 7.86,
+            "climate_change": -0.29,
+            "water_color": 2.6
+        },
+        {
+            "date": "2024-05-05",
+            "ph": 7.64,
+            "salinity": 34.42,
+            "temperature": 20.65,
+            "wind_speed": 2.87,
+            "climate_change": -0.34,
+            "water_color": 1.98
+        },
+        {
+            "date": "2024-05-06",
+            "ph": 7.9,
+            "salinity": 35.87,
+            "temperature": 19.83,
+            "wind_speed": 9.9,
+            "climate_change": -0.18,
+            "water_color": 0.33
+        },
+        {
+            "date": "2024-05-07",
+            "ph": 8.15,
+            "salinity": 36.86,
+            "temperature": 26.63,
+            "wind_speed": 12.17,
+            "climate_change": -0.4,
+            "water_color": 3.48
+        },
+        {
+            "date": "2024-05-08",
+            "ph": 8.39,
+            "salinity": 35.19,
+            "temperature": 27.03,
+            "wind_speed": 6.07,
+            "climate_change": 0.1,
+            "water_color": 1.22
+        },
+        {
+            "date": "2024-05-09",
+            "ph": 7.54,
+            "salinity": 35.79,
+            "temperature": 24.89,
+            "wind_speed": 4.32,
+            "climate_change": -0.2,
+            "water_color": 2.39
+        },
+        {
+            "date": "2024-05-10",
+            "ph": 7.75,
+            "salinity": 34.77,
+            "temperature": 21.28,
+            "wind_speed": 9.29,
+            "climate_change": 0.09,
+            "water_color": 3.14
+        },
+        {
+            "date": "2024-05-11",
+            "ph": 7.8,
+            "salinity": 36.22,
+            "temperature": 25.32,
+            "wind_speed": 11.34,
+            "climate_change": 0.16,
+            "water_color": 1.24
+        },
+        {
+            "date": "2024-05-12",
+            "ph": 8.07,
+            "salinity": 34.71,
+            "temperature": 26.39,
+            "wind_speed": 8.32,
+            "climate_change": -0.21,
+            "water_color": 1.87
+        },
+        {
+            "date": "2024-05-13",
+            "ph": 7.72,
+            "salinity": 34.78,
+            "temperature": 25.86,
+            "wind_speed": 4.52,
+            "climate_change": 0.23,
+            "water_color": 0.28
+        },
+        {
+            "date": "2024-05-14",
+            "ph": 8.29,
+            "salinity": 36.12,
+            "temperature": 20.05,
+            "wind_speed": 5.74,
+            "climate_change": -0.11,
+            "water_color": 2.28
+        },
+        {
+            "date": "2024-05-15",
+            "ph": 8.17,
+            "salinity": 35.81,
+            "temperature": 25.47,
+            "wind_speed": 4.87,
+            "climate_change": 0.3,
+            "water_color": 4.34
+        },
+        {
+            "date": "2024-05-16",
+            "ph": 8.31,
+            "salinity": 37.0,
+            "temperature": 25.27,
+            "wind_speed": 8.55,
+            "climate_change": 0.04,
+            "water_color": 2.11
+        },
+        {
+            "date": "2024-05-17",
+            "ph": 7.74,
+            "salinity": 35.34,
+            "temperature": 22.57,
+            "wind_speed": 6.0,
+            "climate_change": 0.16,
+            "water_color": 1.51
+        },
+        {
+            "date": "2024-05-18",
+            "ph": 8.18,
+            "salinity": 35.24,
+            "temperature": 22.54,
+            "wind_speed": 14.74,
+            "climate_change": -0.27,
+            "water_color": 2.83
+        },
+        {
+            "date": "2024-05-19",
+            "ph": 8.01,
+            "salinity": 36.09,
+            "temperature": 26.15,
+            "wind_speed": 6.4,
+            "climate_change": -0.19,
+            "water_color": 3.91
+        },
+        {
+            "date": "2024-05-20",
+            "ph": 8.23,
+            "salinity": 35.5,
+            "temperature": 23.77,
+            "wind_speed": 2.27,
+            "climate_change": 0.32,
+            "water_color": 2.01
+        },
+        {
+            "date": "2024-05-21",
+            "ph": 7.67,
+            "salinity": 36.34,
+            "temperature": 23.21,
+            "wind_speed": 12.38,
+            "climate_change": -0.4,
+            "water_color": 4.2
+        },
+        {
+            "date": "2024-05-22",
+            "ph": 7.57,
+            "salinity": 36.97,
+            "temperature": 19.35,
+            "wind_speed": 8.18,
+            "climate_change": 0.12,
+            "water_color": 2.39
+        },
+        {
+            "date": "2024-05-23",
+            "ph": 8.12,
+            "salinity": 35.23,
+            "temperature": 19.34,
+            "wind_speed": 2.75,
+            "climate_change": -0.03,
+            "water_color": 2.92
+        },
+        {
+            "date": "2024-05-24",
+            "ph": 8.3,
+            "salinity": 34.75,
+            "temperature": 20.88,
+            "wind_speed": 7.92,
+            "climate_change": -0.31,
+            "water_color": 1.6
+        },
+        {
+            "date": "2024-05-25",
+            "ph": 7.95,
+            "salinity": 36.06,
+            "temperature": 27.3,
+            "wind_speed": 9.01,
+            "climate_change": -0.39,
+            "water_color": 1.05
+        },
+        {
+            "date": "2024-05-26",
+            "ph": 7.58,
+            "salinity": 34.98,
+            "temperature": 19.61,
+            "wind_speed": 14.49,
+            "climate_change": -0.3,
+            "water_color": 4.1
+        },
+        {
+            "date": "2024-05-27",
+            "ph": 7.67,
+            "salinity": 35.39,
+            "temperature": 21.73,
+            "wind_speed": 11.38,
+            "climate_change": 0.38,
+            "water_color": 3.61
+        },
+        {
+            "date": "2024-05-28",
+            "ph": 8.3,
+            "salinity": 34.82,
+            "temperature": 27.31,
+            "wind_speed": 10.97,
+            "climate_change": 0.16,
+            "water_color": 0.24
+        },
+        {
+            "date": "2024-05-29",
+            "ph": 8.31,
+            "salinity": 35.94,
+            "temperature": 24.31,
+            "wind_speed": 7.9,
+            "climate_change": 0.43,
+            "water_color": 0.98
+        },
+        {
+            "date": "2024-05-30",
+            "ph": 7.79,
+            "salinity": 34.55,
+            "temperature": 20.78,
+            "wind_speed": 7.1,
+            "climate_change": 0.18,
+            "water_color": 1.86
+        }
+    ]
+}
